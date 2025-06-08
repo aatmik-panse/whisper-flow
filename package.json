@@ -9,7 +9,6 @@
     "transcribe": "node main.js",
     "batch": "node main.js -b",
     "split": "node split-audio.js",
-    "split29min": "node split29min.js",
     "split-custom": "node split-custom.js",
     "combine": "node combine-transcriptions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
