@@ -1,0 +1,28 @@
+{
+  "name": "audio-transcription",
+  "version": "1.0.0",
+  "description": "Audio transcription using OpenAI API",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "transcribe": "node main.js",
+    "batch": "node main.js -b",
+    "split": "node split-audio.js",
+    "split29min": "node split29min.js",
+    "split-custom": "node split-custom.js",
+    "combine": "node combine-transcriptions.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openai",
+    "transcription",
+    "audio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.24.1"
+  }
+} 
