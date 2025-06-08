@@ -1,7 +1,7 @@
 {
-  "name": "audio-transcription",
+  "name": "whisper-flow",
   "version": "1.0.0",
-  "description": "Audio transcription using OpenAI API",
+  "description": "A command-line toolkit for transcribing audio files using OpenAI's Whisper API",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -16,8 +16,10 @@
   },
   "keywords": [
     "openai",
+    "whisper",
     "transcription",
-    "audio"
+    "audio",
+    "speech-to-text"
   ],
   "author": "",
   "license": "MIT",

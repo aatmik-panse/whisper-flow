@@ -1,4 +1,4 @@
-# Audio Transcription Tool
+# Whisper-Flow
 
 A simple command-line toolkit for transcribing audio files using OpenAI's Whisper API.
 
